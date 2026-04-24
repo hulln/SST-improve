@@ -2,6 +2,12 @@
 
 Enrichment of the UD_Slovenian-SST CoNLL-U dev file with speaker and event metadata from GOS.
 
+## Source and output
+
+- Official UD treebank: https://github.com/UniversalDependencies/UD_Slovenian-SST
+- Upstream dev file used as source: https://github.com/UniversalDependencies/UD_Slovenian-SST/blob/dev/sl_sst-ud-dev.conllu
+- Enriched output in this repo: [src/sst/sl_sst-ud-dev-enriched.conllu](src/sst/sl_sst-ud-dev-enriched.conllu)
+
 ## Validation
 
 To validate the output file, follow the official UD instructions:
