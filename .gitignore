@@ -1,0 +1,31 @@
+# Input data (obtain from original sources)
+src/sst/sl_sst-ud-dev.conllu
+src/gos/*.zip
+
+# External tools
+tools/
+
+# Claude
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Task instructions
+docs/instructions
