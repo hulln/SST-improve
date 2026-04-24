@@ -8,6 +8,16 @@ Enrichment of the UD_Slovenian-SST CoNLL-U dev file with speaker and event metad
 - Upstream dev file used as source: https://github.com/UniversalDependencies/UD_Slovenian-SST/blob/dev/sl_sst-ud-dev.conllu
 - Enriched output in this repo: [src/sst/sl_sst-ud-dev-enriched.conllu](src/sst/sl_sst-ud-dev-enriched.conllu)
 
+## Coconstructions check
+
+This repository contains the enriched SST dev file and can also serve as the working baseline for a coconstruction review or correction pass on top of that enrichment.
+
+For background on `Backchannel=` / `Coconstruct=` annotation and for a fuller end-to-end workflow, see `unidive-cocos`:
+
+- Repository: https://github.com/hulln/unidive-cocos
+- Workflow overview: https://github.com/hulln/unidive-cocos/blob/main/README.md
+- Coconstructions workflow: https://github.com/hulln/unidive-cocos/blob/main/docs/COCONSTRUCTIONS_EXTRACTION.md
+
 ## Validation
 
 To validate the output file, follow the official UD instructions:
