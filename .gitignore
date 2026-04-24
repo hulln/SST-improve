@@ -5,8 +5,9 @@ src/gos/*.zip
 # External tools
 tools/
 
-# Claude
+# Tools
 .claude/
+.codex
 
 # Python
 __pycache__/
