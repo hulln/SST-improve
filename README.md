@@ -35,9 +35,17 @@ For background on `Backchannel=` / `Coconstruct=` annotation and for a fuller en
 To validate the output file, follow the official UD instructions:
 https://universaldependencies.org/contributing/validation.html
 
-### Results after metadata enrichment for `dev` (April 2026)
+### Results after metadata enrichment for all splits (April 2026)
 
-Validated with `validate.py --lang=sl --max-err=0` on both the original and enriched file. Results were identical — the enrichment introduced no new errors or warnings.
+Validated with the repo-local UD validator:
+`python3 tools/validate.py --lang=sl --no-warnings --max-err=0 <file>`
 
-- **Warnings: 132** — pre-existing; mostly `fixed-without-extpos` (fixed expressions missing `ExtPos` feature) and `pron-det-without-prontype` (determiners missing `PronType`)
-- **SYNTAX errors: 8** — pre-existing; `rel-upos-advmod` and `rel-upos-cc` mismatches (e.g. `se pravi` annotated with `cc` relation)
+For `train`, `dev`, and `test`, the original and enriched files produced identical validation summaries. The enrichment introduced no new warnings or errors.
+
+| Split | Before enrichment | After enrichment |
+|-------|-------------------|------------------|
+| `train` | Warnings: 870; SYNTAX errors: 78 | Warnings: 870; SYNTAX errors: 78 |
+| `dev` | Warnings: 132; SYNTAX errors: 8 | Warnings: 132; SYNTAX errors: 8 |
+| `test` | Warnings: 145; SYNTAX errors: 18 | Warnings: 145; SYNTAX errors: 18 |
+
+These validator failures are pre-existing in the upstream SST files; they are not caused by the metadata enrichment.
