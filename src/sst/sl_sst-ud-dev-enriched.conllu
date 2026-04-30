@@ -255,7 +255,7 @@
 # event_type = info-education
 # event_domain = Krka, interview
 # event_channel = radio
-# event_description = Discussion on the theatre's programme for 2009.
+# event_description = Discussion on the theatre’s programme for 2009.
 # sent_id = Gos034.s10
 # speaker_id = Af-mode-05513
 # speaker_gender = female
@@ -3455,7 +3455,7 @@
 # event_type = entertainment
 # event_domain = Maxi, Pižama bar
 # event_channel = radio
-# event_description = Local radio programme in which listeners' music requests are played.
+# event_description = Local radio programme in which listeners’ music requests are played.
 # sent_id = Gos155.s80
 # speaker_id = Bm-posl-10506
 # speaker_gender = male
@@ -5312,7 +5312,7 @@
 # event_type = non-private
 # event_domain = service
 # event_channel = in-person
-# event_description = A conversation in a dentist's surgery between a patient, the dentist and the assistant.
+# event_description = A conversation in a dentist’s surgery between a patient, the dentist and the assistant.
 # sent_id = Gos197.s43
 # speaker_id = Zm-zdra-07535
 # speaker_gender = male
@@ -6769,7 +6769,7 @@
 # event_type = private
 # event_domain = home, family
 # event_channel = in-person
-# event_description = A family gathering to celebrate a family member passing a professional exam. Topics include the upcoming holiday, anecdotes from two family members' travels, stories that happened to friends, and travel experiences with travel agencies in general.
+# event_description = A family gathering to celebrate a family member passing a professional exam. Topics include the upcoming holiday, anecdotes from two family members’ travels, stories that happened to friends, and travel experiences with travel agencies in general.
 # sent_id = Gos236.s356
 # speaker_id = Df-otro-02562
 # speaker_gender = female
@@ -8479,7 +8479,7 @@
 # event_type = private
 # event_domain = away from home, friends
 # event_channel = in-person
-# event_description = A conversation in a café between a foreigner and a local, who are meeting for the first time during this conversation, about the foreigner's impressions and life.
+# event_description = A conversation in a café between a foreigner and a local, who are meeting for the first time during this conversation, about the foreigner’s impressions and life.
 # sent_id = Gos261.s70
 # speaker_id = Tf-znan-07540
 # speaker_gender = female

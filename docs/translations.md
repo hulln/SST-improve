@@ -129,5 +129,10 @@ Only values present in the SST dev corpus are listed here.
 
 Source: DeepL (Slovenian → British English). No English translation in source Excel or GOS data.
 
-All 39 GOS titles present in SST dev are translated in `scripts/enrich_conllu.py` (`DESCRIPTION` dict).
-The 5 Artur docs have no real title in the source data; the doc ID is used as-is.
+Per-split description translation files live under `docs/working/descriptions/`:
+
+- `descriptions-train-slovenian.txt` / `descriptions-train-english.txt` / `descriptions-train-for-translation.tsv`
+- `descriptions-dev-slovenian.txt` / `descriptions-dev-english.txt` / `descriptions-dev-for-translation.tsv`
+- `descriptions-test-slovenian.txt` / `descriptions-test-english.txt` / `descriptions-test-for-translation.tsv`
+
+The enrichment script reads the `english` column from the per-split TSVs. A legacy dev-only fallback remains in `scripts/enrich_conllu.py` for already translated descriptions and for Artur docs whose source title is only the doc ID.
