@@ -1,5 +1,7 @@
 # Input data (obtain from original sources)
 src/sst/sl_sst-ud-dev.conllu
+src/sst/sl_sst-ud-train.conllu
+src/sst/sl_sst-ud-test.conllu
 src/gos/*.zip
 
 # External tools

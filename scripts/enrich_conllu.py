@@ -272,8 +272,25 @@ def load_speakers(path: Path) -> dict:
     return result
 
 
-def load_speeches(path: Path) -> dict:
+def load_description_translations(path: Path) -> dict:
+    """TEXT-ID → English event description from a per-split TSV."""
+    if not path.exists():
+        return {}
+
+    result = {}
+    with open(path, encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            tid = row["doc_id"].strip()
+            english = (row.get("english") or "").strip()
+            if english:
+                result[tid] = english
+    return result
+
+
+def load_speeches(path: Path, descriptions: dict | None = None) -> dict:
     """TEXT-ID → {event_type, event_domain, event_channel, event_description}"""
+    descriptions = descriptions or {}
     result = {}
     with open(path, encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter="\t")
@@ -283,7 +300,7 @@ def load_speeches(path: Path) -> dict:
                 "event_type": TYPE.get(row["TYPE"].strip(), row["TYPE"].strip()),
                 "event_domain": translate_domain(row["DOMAIN"].strip()),
                 "event_channel": CHANNEL.get(row["CHANNEL"].strip(), row["CHANNEL"].strip()),
-                "event_description": DESCRIPTION.get(tid, row["TITLE"].strip()),
+                "event_description": descriptions.get(tid) or DESCRIPTION.get(tid, row["TITLE"].strip()),
             }
     return result
 
@@ -337,14 +354,21 @@ def enrich(conllu_path: Path, speakers: dict, speeches: dict, out_path: Path):
 
 if __name__ == "__main__":
     base = Path(__file__).parent.parent / "src"
+    descriptions_dir = Path(__file__).parent.parent / "docs" / "working" / "descriptions"
     gos_dir = base / "gos"
     sst_dir = base / "sst"
 
     speakers = load_speakers(gos_dir / "Gos-speakers.tsv")
-    speeches = load_speeches(gos_dir / "Gos-speeches.tsv")
 
-    conllu_in = sst_dir / "sl_sst-ud-dev.conllu"
-    conllu_out = sst_dir / "sl_sst-ud-dev-enriched.conllu"
+    for split in ("train", "dev", "test"):
+        conllu_in = sst_dir / f"sl_sst-ud-{split}.conllu"
+        conllu_out = sst_dir / f"sl_sst-ud-{split}-enriched.conllu"
+        descriptions_path = descriptions_dir / f"descriptions-{split}-for-translation.tsv"
 
-    enrich(conllu_in, speakers, speeches, conllu_out)
-    print(f"Done. Output: {conllu_out}")
+        if not conllu_in.exists():
+            raise FileNotFoundError(f"Missing input file: {conllu_in}")
+
+        descriptions = load_description_translations(descriptions_path)
+        speeches = load_speeches(gos_dir / "Gos-speeches.tsv", descriptions)
+        enrich(conllu_in, speakers, speeches, conllu_out)
+        print(f"Done. Output: {conllu_out}")
