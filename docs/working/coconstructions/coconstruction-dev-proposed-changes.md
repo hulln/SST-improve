@@ -61,6 +61,16 @@
 
 ## proposed
 
+This is 4.1 Completion with promotion (PDF §4.1, "promotion mechanism"). Speaker 1 says "doživel neko prijetno [missing noun]" — doživel (token 45) projects an obj NP. The NP has a determiner (neko) and adjective (prijetno) but the head noun is missing. Speaker 2 provides "doživetje" (experience) as the missing noun head.
+
+Since the noun's position is unfinished, apply the promotion mechanism per the PDF:
+- prijetno (token 47) was meant to be amod of the missing noun, but gets promoted to the obj position → Scrap=Yes|Promotion=amod
+- neko (token 46) is det of the missing noun's position, not of the promoted word → Head=Position
+- Remove the forward-pointing Coconstruct from tokens 46 and 47
+- Speaker 2's doživetje keeps Coconstruct=obj::Gos051.s261::45 (pointing to doživel, the verb projecting the obj slot)
+
+This exactly mirrors the paper's Example 11 ("she has a very nice / attitude").
+
 ```conllu
 # sent_id = Gos051.s261
 # text = ja , govori o neki ženski , a je ta žens- , ampak kako govori o neki ženski , ne da jo zdaj , ne vem , opisuje , predstavlja , označuje , ampak kako govori o njej , da je z njo nekoč doživel neko prijetno
@@ -153,9 +163,7 @@
 
 ## proposed
 
-hold
-
-no proposed change yet
+Annotation is correct as-is. This is 4.2 Stacking (same referent): Speaker 1 says "to junijsko je nekako [X]" (that June thing is somehow [X]) — je (token 6, VERB root) leaves the predicative slot open. Speaker 2 says "to je skupno" (it is shared), providing "skupno" as the predicate. Coconstruct=parataxis::Gos176.s792::6 on skupno correctly points back to Speaker 1's je with no forward pointers on Speaker 1. No changes needed.
 
 # coco_03
 
@@ -184,6 +192,34 @@ no proposed change yet
 
 ## proposed
 
-hold
+This is 4.1 Completion with repetition. Speaker 1 produces "na par forumov" (on a few forums) — an incomplete clause fragment with no verb. Speaker 2 restarts by REPEATING "na par forumov" and then provides the completing verb "fuknemo gor" (we'll post/put up).
 
-no proposed change yet
+Two things to fix:
+1. The reparandum link for the repeated "forumov" must be on SPEAKER 2's token pointing BACK to Speaker 1 (not on Speaker 1 pointing forward).
+2. Speaker 2's fuknemo has Coconstruct=parataxis::s99::3 — pointing to Speaker 1's forumov (the local root of the fragment). This is kept as the best available anchor given s99 has no verbal head.
+
+Changes:
+- Remove Coconstruct from s99 token 3 (forumov) — forward pointer on Speaker 1, wrong direction
+- Add Coconstruct=reparandum::Gos243.s99::3 to s100 token 3 (forumov) — Speaker 2 repeats Speaker 1's words
+- Keep Coconstruct=parataxis::Gos243.s99::3 on s100 token 4 (fuknemo) — correct direction, best available anchor
+
+```conllu
+# sent_id = Gos243.s99
+# text = na par forumov
+1	na	na	ADP	Sa	Case=Acc	3	case	_	pronunciation=na|Gos2.1_token_id=Gos243.tok604
+2	par	par	DET	Rgp	PronType=Ind	3	advmod	_	pronunciation=par|Gos2.1_token_id=Gos243.tok605
+3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok606
+
+# sent_id = Gos243.s100
+# text = na par forumov fuknemo gor , da iščemo kitarista .
+1	na	na	ADP	Sa	Case=Acc	3	case	_	pronunciation=na|Gos2.1_token_id=Gos243.tok607
+2	par	par	DET	Rgp	PronType=Ind	3	advmod	_	pronunciation=par|Gos2.1_token_id=Gos243.tok608
+3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok609|Coconstruct=reparandum::Gos243.s99::3
+4	fuknemo	fukniti	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=fuknemo|Gos2.1_token_id=Gos243.tok610|Coconstruct=parataxis::Gos243.s99::3
+5	gor	gor	ADV	Rgp	Degree=Pos	4	advmod	_	pronunciation=gor|Gos2.1_token_id=Gos243.tok611
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	da	da	SCONJ	Cs	_	8	mark	_	pronunciation=da|Gos2.1_token_id=Gos243.tok612
+8	iščemo	iskati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	pronunciation=iščemo|Gos2.1_token_id=Gos243.tok613
+9	kitarista	kitarist	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	pronunciation=kitarista|Gos2.1_token_id=Gos243.tok614
+10	.	.	PUNCT	Z	_	4	punct	_	_
+```
