@@ -1,8 +1,17 @@
-# Input data (obtain from original sources)
-src/sst/sl_sst-ud-dev.conllu
-src/sst/sl_sst-ud-train.conllu
-src/sst/sl_sst-ud-test.conllu
-src/gos/*.zip
+# Corpus data obtained from original sources (see metadata/gos/sources.md)
+# SST inputs (small, but obtained upstream); enriched SST outputs ARE committed.
+corpora/sst/sl_sst-ud-dev.conllu
+corpora/sst/sl_sst-ud-train.conllu
+corpora/sst/sl_sst-ud-test.conllu
+
+# GOS corpus input is too large to commit (~400 MB); obtain it from its source.
+corpora/gos/gos.conllu
+# NOTE: gos-enriched.conllu (~408 MB) is intentionally NOT ignored here, so it can
+# be tracked. WARNING: GitHub rejects files >100 MB on push — use Git LFS for it,
+# or deliver it outside git (e.g. OneDrive), like the input was received.
+
+# Shared GOS metadata archives (TEI/TRS/TXT/vert) — large, obtained upstream
+metadata/gos/*.zip
 
 # External tools
 tools/

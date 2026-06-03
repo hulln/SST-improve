@@ -17,13 +17,13 @@ import csv
 import re
 from pathlib import Path
 
-from enrich_conllu import DESCRIPTION
+from translations import DESCRIPTION
 
 
 ROOT = Path(__file__).resolve().parent.parent
 WORKING_DIR = ROOT / "docs" / "working" / "descriptions"
-SST_DIR = ROOT / "src" / "sst"
-GOS_SPEECHES = ROOT / "src" / "gos" / "Gos-speeches.tsv"
+SST_DIR = ROOT / "corpora" / "sst"
+GOS_SPEECHES = ROOT / "metadata" / "gos" / "Gos-speeches.tsv"
 SPLITS = ("train", "dev", "test")
 
 

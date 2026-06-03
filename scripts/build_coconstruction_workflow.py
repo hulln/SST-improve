@@ -19,7 +19,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-SST_DIR = ROOT / "src" / "sst"
+SST_DIR = ROOT / "corpora" / "sst"
 WORKING_DIR = ROOT / "docs" / "working" / "coconstructions"
 TOKEN_RE = re.compile(r"^(\d+)\t([^\t]+)\t")
 

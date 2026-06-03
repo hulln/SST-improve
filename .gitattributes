@@ -1,0 +1,1 @@
+corpora/gos/gos-enriched.conllu filter=lfs diff=lfs merge=lfs -text

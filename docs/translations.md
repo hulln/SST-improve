@@ -129,10 +129,20 @@ Only values present in the SST dev corpus are listed here.
 
 Source: DeepL (Slovenian → British English). No English translation in source Excel or GOS data.
 
-Per-split description translation files live under `docs/working/descriptions/`:
+Per-split / per-subcorpus description translation files live under `docs/working/descriptions/`:
 
 - `descriptions-train-slovenian.txt` / `descriptions-train-english.txt` / `descriptions-train-for-translation.tsv`
 - `descriptions-dev-slovenian.txt` / `descriptions-dev-english.txt` / `descriptions-dev-for-translation.tsv`
 - `descriptions-test-slovenian.txt` / `descriptions-test-english.txt` / `descriptions-test-for-translation.tsv`
+- `descriptions-gosvl-for-translation.tsv` (the GOS public-lecture subcorpus)
 
-The enrichment script reads the `english` column from the per-split TSVs. A legacy dev-only fallback remains in `scripts/enrich_conllu.py` for already translated descriptions and for Artur docs whose source title is only the doc ID.
+`scripts/build_descriptions.py` merges the `english` columns from every
+`descriptions-*-for-translation.tsv` into the unified `metadata/gos/descriptions-en.tsv`
+(doc_id → Slovenian title → English). The enrichment engine reads English event
+descriptions from that file and falls back to the raw Slovenian `TITLE` for any doc
+without a translation (Artur docs, whose source title is only the doc ID, fall back to
+the ID). The translation tables themselves live in `scripts/translations.py`.
+
+The 287 `Gos` descriptions were translated for the SST task (Task 1); the 55 `GosVL`
+(public-lecture) descriptions were added for the GOS task (Task 2) — Slovenian beside
+English in `descriptions-gosvl-for-translation.tsv` for review.
