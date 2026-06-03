@@ -1,0 +1,248 @@
+# newdoc id = Gos224
+# newpar id = Gos224.u1
+# sent_id = Gos224.s1
+# text = tam smo vidli pa
+1	tam	tam	ADV	Rgp	Degree=Pos	3	advmod	_	_
+2	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vidli	videti	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+4	pa	pa	CCONJ	Cc	_	3	advmod	_	_
+
+# newdoc id = GosVL14_karci
+# newpar id = GosVL14_karci.u1
+# sent_id = GosVL14_karci.s1
+# text = veseli me da lahko danes predstavm en del del eee rezultatov naše programske skupine
+1	veseli	veseliti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	me	jaz	PRON	Pp1-sa--y	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obj	_	_
+3	da	da	SCONJ	Cs	_	6	mark	_	_
+4	lahko	lahko	ADV	Rgp	Degree=Pos	6	advmod	_	_
+5	danes	danes	ADV	Rgp	Degree=Pos	6	advmod	_	_
+6	predstavm	predstaviti	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+7	en	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	8	nummod	_	_
+8	del	del	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	reparandum	_	_
+9	del	del	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+10	eee	eee	INTJ	I	_	6	discourse:filler	_	_
+11	rezultatov	rezultat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	naše	naš	DET	Ps1fsgp	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+13	programske	programski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	skupine	skupina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+
+# sent_id = Artur-J-Gvecg-P580017.resegsent10614
+1	tudi	tudi	PART	Q	_	10	advmod	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s3|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s3.t1
+2	zato	zato	ADV	Rgp	Degree=Pos	10	mark	_	SpaceAfter=No|OriginalSentenceId=Artur-J-Gvecg-P580017.s3|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s3.t2
+3	,	,	PUNCT	Z	_	2	punct	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s3|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s3.t3
+4	ker	ker	SCONJ	Cs	_	2	fixed	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t1
+5	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t2
+6	občina	občina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t3
+7	v	v	ADP	Sl	Case=Loc	9	case	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t4
+8	teh	ta	DET	Pd-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t5
+9	dneh	dan	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t6
+10	praznuje	praznovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t7
+11	svoj	svoj	DET	Px-msa	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t8
+12	praznik	praznik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t9
+13	.	.	PUNCT	Z	_	10	punct	_	OriginalSentenceId=Artur-J-Gvecg-P580017.s4|OriginalUtteranceId=Artur-J-Gvecg-P580017.u1|OriginalTokenId=Artur-J-Gvecg-P580017.s4.t10
+
+# sent_id = Artur-N-G5038-P600037.resegsent28429
+1	in	in	CCONJ	Cc	_	8	cc	_	OriginalSentenceId=Artur-N-G5038-P600037.s2|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s2.t1
+2	sicer	sicer	CCONJ	Cc	_	1	fixed	_	SpaceAfter=No|OriginalSentenceId=Artur-N-G5038-P600037.s2|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s2.t2
+3	:	:	PUNCT	Z	_	1	punct	_	OriginalSentenceId=Artur-N-G5038-P600037.s2|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s2.t3
+4	najprej	najprej	ADV	Rgs	Degree=Sup	8	advmod	_	SpaceAfter=No|OriginalSentenceId=Artur-N-G5038-P600037.s3|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s3.t1
+5	,	,	PUNCT	Z	_	6	punct	_	OriginalSentenceId=Artur-N-G5038-P600037.s3|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s3.t2
+6	eee	eee	INTJ	I	_	8	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-N-G5038-P600037.s3|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s3.t3
+7	,	,	PUNCT	Z	_	6	punct	_	OriginalSentenceId=Artur-N-G5038-P600037.s3|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s3.t4
+8	vzameš	vzeti	VERB	Vmer2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	OriginalSentenceId=Artur-N-G5038-P600037.s4|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s4.t1
+9	tristo	tristo	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	10	nummod	_	OriginalSentenceId=Artur-N-G5038-P600037.s4|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s4.t2
+10	gramov	gram	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	OriginalSentenceId=Artur-N-G5038-P600037.s4|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s4.t3
+11	moke	moka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|OriginalSentenceId=Artur-N-G5038-P600037.s4|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s4.t4
+12	,	,	PUNCT	Z	_	15	punct	_	OriginalSentenceId=Artur-N-G5038-P600037.s4|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s4.t5
+13	lahko	lahko	ADV	Rgp	Degree=Pos	15	advmod	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t1
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t2
+15	bela	bel	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No|OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t3
+16	,	,	PUNCT	Z	_	18	punct	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t4
+17	lahko	lahko	ADV	Rgp	Degree=Pos	18	advmod	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t5
+18	dodaš	dodati	VERB	Vmer2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	parataxis	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t6
+19	še	še	PART	Q	_	21	advmod	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t7
+20	malo	malo	DET	Rgp	PronType=Ind	21	advmod	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t8
+21	polnozrnate	polnozrnat	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No|OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t9
+22	.	.	PUNCT	Z	_	8	punct	_	OriginalSentenceId=Artur-N-G5038-P600037.s5|OriginalUtteranceId=Artur-N-G5038-P600037.u2|OriginalTokenId=Artur-N-G5038-P600037.s5.t10
+
+# sent_id = Artur-P-G7181-P701995.resegsent63049
+1	torej	torej	ADV	Rgp	Degree=Pos	13	discourse	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t5
+2	,	,	PUNCT	Z	_	1	punct	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t6
+3	na	na	ADP	Sl	Case=Loc	5	case	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t7
+4	našem	naš	DET	Ps1nslp	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t8
+5	ministrstvu	ministrstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t9
+6	že	že	PART	Q	_	8	advmod	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t10
+7	od	od	ADP	Sg	Case=Gen	8	case	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t11
+8	januarja	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t12
+9	dva	dva	NUM	Mlcmdn	Case=Nom|Gender=Masc|Number=Dual|NumForm=Word|NumType=Card	8	nummod	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t13
+10	tisoč	tisoč	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	9	flat	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t14
+11	dvanajst	dvanajst	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	9	flat	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t15
+12	dalje	dalje	ADV	Rgp	Degree=Pos	8	advmod	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t16
+13	teče	teči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t17
+14	postopek	postopek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t18
+15	priprave	priprava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	OriginalSentenceId=Artur-P-G7181-P701995.s1|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s1.t19
+16	držaunega	državen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t1
+17	prostorskega	prostorski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t2
+18	načrta	načrt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t3
+19	za	za	ADP	Sa	Case=Acc	21	case	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t4
+20	hidroelektrarno	hidroelektrarna	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t5
+21	hrastje-mota	hrastje-mot	NOUN	Ncfsa	_	18	nmod	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t6
+22	na	na	ADP	Sl	Case=Loc	23	case	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t7
+23	Muri	Mura	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t8
+24	.	.	PUNCT	Z	_	13	punct	_	OriginalSentenceId=Artur-P-G7181-P701995.s2|OriginalUtteranceId=Artur-P-G7181-P701995.u1|OriginalTokenId=Artur-P-G7181-P701995.s2.t9
+
+# newpar id = Gos059.u144
+# sent_id = Gos059.s171
+# text = mislim … čas
+1	mislim	misliti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis:discourse	_	_
+2	…	…	PUNCT	Z	_	1	punct	_	_
+3	čas	čas	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = Artur-P-G7030-P700134.resegsent46706
+1	s	z	ADP	Sg	Case=Gen	2	case	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t1
+2	strani	stran	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t2
+3	Držaunega	državen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t3
+4	odvetništva	odvetništvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t4
+5	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t5
+6	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	7	cop	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t6
+7	obveščeni	obveščen	ADJ	Appmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t7
+8	,	,	PUNCT	Z	_	17	punct	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t8
+9	da	da	SCONJ	Cs	_	17	mark	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t9
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t10
+11	Europska	evropski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t11
+12	komisija	komisija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t12
+13	petega	peti	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	17	obl	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t13
+14	desetega	deseti	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	13	flat	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t14
+15	dva	dva	NUM	Mlcmdn	Case=Nom|Gender=Masc|Number=Dual|NumForm=Word|NumType=Card	13	flat	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t15
+16	osəmnajst	osemnajst	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	13	flat	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t16
+17	ložila	ložiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	7	ccomp	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t17
+18	tožbo	tožba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	OriginalSentenceId=Artur-P-G7030-P700134.s44|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s44.t18
+19	in	in	CCONJ	Cc	_	21	cc	_	OriginalSentenceId=Artur-P-G7030-P700134.s45|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s45.t1
+20	sodišču	sodišče	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	21	iobj	_	OriginalSentenceId=Artur-P-G7030-P700134.s45|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s45.t2
+21	predlaga	predlagati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7030-P700134.s45|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s45.t3
+22	,	,	PUNCT	Z	_	25	punct	_	OriginalSentenceId=Artur-P-G7030-P700134.s45|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s45.t4
+23	da	da	SCONJ	Cs	_	25	mark	_	OriginalSentenceId=Artur-P-G7030-P700134.s46|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s46.t1
+24	Sloveniji	Slovenija	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	25	iobj	_	OriginalSentenceId=Artur-P-G7030-P700134.s46|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s46.t2
+25	naloži	naložiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	OriginalSentenceId=Artur-P-G7030-P700134.s46|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s46.t3
+26	globe	globa	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7030-P700134.s47|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s47.t1
+27	.	.	PUNCT	Z	_	7	punct	_	OriginalSentenceId=Artur-P-G7030-P700134.s47|OriginalUtteranceId=Artur-P-G7030-P700134.u1|OriginalTokenId=Artur-P-G7030-P700134.s47.t2
+
+# sent_id = Artur-J-Gvecg-P580013.resegsent10183
+1	naj	naj	PART	Q	_	3	advmod	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s375|OriginalUtteranceId=Artur-J-Gvecg-P580013.u88|OriginalTokenId=Artur-J-Gvecg-P580013.s375.t1
+2	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	obj	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s375|OriginalUtteranceId=Artur-J-Gvecg-P580013.u88|OriginalTokenId=Artur-J-Gvecg-P580013.s375.t2
+3	bo	biti	VERB	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s375|OriginalUtteranceId=Artur-J-Gvecg-P580013.u88|OriginalTokenId=Artur-J-Gvecg-P580013.s375.t3
+4	srečno	srečno	ADV	Rgp	Degree=Pos	3	advmod	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s375|OriginalUtteranceId=Artur-J-Gvecg-P580013.u88|OriginalTokenId=Artur-J-Gvecg-P580013.s375.t4
+5	Hvala	hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t1
+6	za	za	ADP	Sa	Case=Acc	8	case	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t2
+7	tvoj	tvoj	DET	Ps2msas	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	8	det	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t3
+8	obisk	obisk	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t4
+9	v	v	ADP	Sl	Case=Loc	10	case	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t5
+10	studiu	studio	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t6
+11	Štajerskega	štajerski	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t7
+12	vala	val	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t8
+13	,	,	PUNCT	Z	_	14	punct	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t9
+14	hvala	hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	discourse	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t10
+15	za	za	ADP	Sa	Case=Acc	17	case	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t11
+16	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	det	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t12
+17	voščilo	voščilo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t13
+18	.	.	PUNCT	Z	_	3	punct	_	OriginalSentenceId=Artur-J-Gvecg-P580013.s376|OriginalUtteranceId=Artur-J-Gvecg-P580013.u89|OriginalTokenId=Artur-J-Gvecg-P580013.s376.t14
+
+# sent_id = Artur-P-G7041-P701501.resegsent47979
+1	potem	potem	ADV	Rgp	Degree=Pos	2	advmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t1
+2	vemo	vedeti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t2
+3	,	,	PUNCT	Z	_	5	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t3
+4	da	da	SCONJ	Cs	_	5	mark	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t4
+5	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	ccomp	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t5
+6	pred	pred	ADP	Si	Case=Ins	7	case	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t6
+7	nami	jaz	PRON	Pp1-pi	Case=Ins|Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t7
+8	,	,	PUNCT	Z	_	9	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t8
+9	eee	eee	INTJ	I	_	5	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t9
+10	,	,	PUNCT	Z	_	9	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t10
+11	resən	resen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t11
+12	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t12
+13	,	,	PUNCT	Z	_	15	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t13
+14	ki	ki	SCONJ	Cs	_	15	mark	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t14
+15	terja	terjati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t15
+16	,	,	PUNCT	Z	_	17	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t16
+17	eee	eee	INTJ	I	_	15	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t17
+18	,	,	PUNCT	Z	_	17	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t18
+19	zelo	zelo	ADV	Rgp	Degree=Pos	15	advmod	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t19
+20	,	,	PUNCT	Z	_	24	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s42|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s42.t20
+21	em	em	INTJ	I	_	24	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t1
+22	,	,	PUNCT	Z	_	21	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t2
+23	ki	ki	SCONJ	Cs	_	24	mark	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t3
+24	terja	terjati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t4
+25	poenotenje	poenotenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t5
+26	,	,	PUNCT	Z	_	32	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t6
+27	in	in	CCONJ	Cc	_	32	cc	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t7
+28	,	,	PUNCT	Z	_	29	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t8
+29	em	em	INTJ	I	_	24	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t9
+30	,	,	PUNCT	Z	_	29	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t10
+31	čimprejšne	čimprejšnji	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t11
+32	poenotenje	poenotenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	25	conj	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t12
+33	in	in	CCONJ	Cc	_	39	cc	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t13
+34	,	,	PUNCT	Z	_	35	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t14
+35	em	em	INTJ	I	_	39	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t15
+36	,	,	PUNCT	Z	_	35	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s43|OriginalUtteranceId=Artur-P-G7041-P701501.u6|OriginalTokenId=Artur-P-G7041-P701501.s43.t16
+37	področje	področje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	40	obj	_	OriginalSentenceId=Artur-P-G7041-P701501.s44|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s44.t1
+38	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	39	cop	_	OriginalSentenceId=Artur-P-G7041-P701501.s44|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s44.t2
+39	potrebno	potreben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	conj	_	OriginalSentenceId=Artur-P-G7041-P701501.s44|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s44.t3
+40	uredit	urediti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	39	csubj	_	OriginalSentenceId=Artur-P-G7041-P701501.s44|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s44.t4
+41	čim	čim	ADV	Rgp	Degree=Pos	42	advmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s44|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s44.t5
+42	prej	prej	ADV	Rgc	Degree=Cmp	40	advmod	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s44|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s44.t6
+43	,	,	PUNCT	Z	_	48	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s44|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s44.t7
+44	usekakor	usekakor	PART	Q	_	48	advmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t1
+45	še	še	PART	Q	_	48	advmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t2
+46	pred	pred	ADP	Si	Case=Ins	48	case	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t3
+47	nasledno	naslednji	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t4
+48	krizo	kriza	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t5
+49	,	,	PUNCT	Z	_	53	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t6
+50	da	da	SCONJ	Cs	_	53	mark	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t7
+51	ne	ne	PART	Q	Polarity=Neg	53	advmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t8
+52	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	53	aux	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t9
+53	ponovili	ponoviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	40	advcl	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t10
+54	vaje	vaja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	53	obj	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t11
+55	,	,	PUNCT	Z	_	53	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t12
+56	in	in	CCONJ	Cc	_	62	cc	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t13
+57	,	,	PUNCT	Z	_	58	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s45|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s45.t14
+58	eee	eee	INTJ	I	_	62	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t1
+59	,	,	PUNCT	Z	_	58	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t2
+60	ker	ker	SCONJ	Cs	_	62	mark	_	OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t3
+61	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	62	aux	_	OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t4
+62	imela	imeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	40	advcl	_	OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t5
+63	tut	tudi	PART	Q	_	70	advmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t6
+64	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	70	det	_	OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t7
+65	celotna	celoten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	70	reparandum	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t8
+66	,	,	PUNCT	Z	_	67	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s46|OriginalUtteranceId=Artur-P-G7041-P701501.u8|OriginalTokenId=Artur-P-G7041-P701501.s46.t9
+67	em	em	INTJ	I	_	62	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s47|OriginalUtteranceId=Artur-P-G7041-P701501.u9|OriginalTokenId=Artur-P-G7041-P701501.s47.t1
+68	,	,	PUNCT	Z	_	67	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s47|OriginalUtteranceId=Artur-P-G7041-P701501.u9|OriginalTokenId=Artur-P-G7041-P701501.s47.t2
+69	celotna	celoten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	70	amod	_	OriginalSentenceId=Artur-P-G7041-P701501.s48|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s48.t1
+70	neurejenost	neurejenost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	62	nsubj	_	OriginalSentenceId=Artur-P-G7041-P701501.s48|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s48.t2
+71	področja	področje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	70	nmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s48|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s48.t3
+72	tut	tudi	PART	Q	_	74	advmod	_	OriginalSentenceId=Artur-P-G7041-P701501.s48|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s48.t4
+73	negativən	negativen	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	74	amod	_	OriginalSentenceId=Artur-P-G7041-P701501.s48|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s48.t5
+74	upliu	upliu	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	62	obj	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s48|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s48.t6
+75	,	,	PUNCT	Z	_	76	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s48|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s48.t7
+76	eee	eee	INTJ	I	_	62	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t1
+77	,	,	PUNCT	Z	_	76	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t2
+78	in	in	CCONJ	Cc	_	79	cc	_	OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t3
+79	doprinos	doprinos	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	74	conj	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t4
+80	,	,	PUNCT	Z	_	81	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t5
+81	eee	eee	INTJ	I	_	62	discourse:filler	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t6
+82	,	,	PUNCT	Z	_	81	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t7
+83	k	k	ADP	Sd	Case=Dat	85	case	_	OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t8
+84	bančni	bančen	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	85	amod	_	OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t9
+85	lukni	luknja	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	79	nmod	_	SpaceAfter=No|OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t10
+86	.	.	PUNCT	Z	_	2	punct	_	OriginalSentenceId=Artur-P-G7041-P701501.s49|OriginalUtteranceId=Artur-P-G7041-P701501.u11|OriginalTokenId=Artur-P-G7041-P701501.s49.t11
+
+# sent_id = GosVL39_skrek.s89
+# text = ampak je pa problem s čiščenjem s formatom podatkov
+1	ampak	ampak	CCONJ	Cc	_	2	cc	_	_
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pa	pa	CCONJ	Cc	_	2	advmod	_	_
+4	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	s	z	ADP	Si	Case=Ins	6	case	_	_
+6	čiščenjem	čiščenje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	_
+7	s	z	ADP	Si	Case=Ins	8	case	_	_
+8	formatom	format	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+9	podatkov	podatek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
