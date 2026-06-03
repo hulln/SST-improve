@@ -42,5 +42,7 @@ enrichment.
   `gos.conllu` byte-for-byte.
 
 Both are re-checkable with `python scripts/verify.py`, which also reports GOS coverage
-(1534 documents, 187,414 sentences, 187,378 with a speaker, 36 unresolved — those 36 fall
-under 3 TEI utterances that have no `who` attribute).
+(1534 documents, 187,414 sentences, 187,264 with a speaker, 150 without a sentence-level
+speaker block). Of the 150 no-speaker sentences, 36 have no available TEI `who=` metadata and
+114 are Artur sentence-level speaker edge cases: 112 contain multiple known TEI speakers, and
+2 combine one known speaker with tokens from a no-`who` utterance.

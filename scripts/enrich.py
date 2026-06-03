@@ -16,8 +16,10 @@ and per sentence, after ``# sent_id`` (or after an existing ``# speaker_id``):
 Document id, utterance and speaker are resolved with whatever the input provides:
   - doc id      = ``# newdoc id`` if present, else the sent_id prefix (Artur).
   - speaker     = existing ``# speaker_id`` (SST), else the speaker of the sentence's
-                  utterance, found via ``# newpar id`` (Gos/GosVL) or the dominant
-                  MISC ``OriginalUtteranceId`` (Artur), mapped through utterance-speaker.tsv.
+                  utterance, found via ``# newpar id`` (Gos/GosVL) or MISC
+                  ``OriginalUtteranceId`` (Artur), mapped through utterance-speaker.tsv.
+                  If an Artur sentence's tokens point to multiple speakers, or to both
+                  resolved and unresolved utterances, no sentence-level speaker is emitted.
 """
 
 import argparse
@@ -78,9 +80,19 @@ def comment_value(raw: str) -> str:
     return raw.split(" = ", 1)[1].rstrip("\r\n")
 
 
-def dominant_utterance(token_lines: list[str]) -> str | None:
-    """Utterance id carried by the most tokens (tie -> first seen), or None."""
-    counts: Counter[str] = Counter()
+def speaker_from_sentence(
+    token_lines: list[str],
+    fallback_utterance: str | None,
+    utt2spk: dict[str, str],
+) -> tuple[str | None, bool]:
+    """Return (speaker_id, ambiguous) for a sentence.
+
+    Artur token rows carry ``OriginalUtteranceId``. A sentence-level speaker is
+    safe only if every token-level utterance with speaker information resolves
+    to the same speaker and no token-level utterance is unresolved. If no
+    token-level utterance is present, fall back to ``# newpar id`` for Gos/GosVL.
+    """
+    utterances: Counter[str] = Counter()
     for line in token_lines:
         i = line.find(_UTT_MARKER)
         if i == -1:
@@ -88,11 +100,24 @@ def dominant_utterance(token_lines: list[str]) -> str | None:
         start = i + len(_UTT_MARKER)
         end = line.find("|", start)
         uid = line[start:] if end == -1 else line[start:end]
-        counts[uid.rstrip("\r\n")] += 1
-    if not counts:
-        return None
-    # Counter.most_common keeps insertion order on ties (Python 3.7+ dict order).
-    return counts.most_common(1)[0][0]
+        utterances[uid.rstrip("\r\n")] += 1
+
+    if utterances:
+        speakers: set[str] = set()
+        unresolved = False
+        for utt in utterances:
+            speaker = utt2spk.get(utt)
+            if speaker is None:
+                unresolved = True
+            else:
+                speakers.add(speaker)
+        if len(speakers) == 1 and not unresolved:
+            return next(iter(speakers)), False
+        return None, len(speakers) > 1 or bool(speakers and unresolved)
+
+    if fallback_utterance:
+        return utt2spk.get(fallback_utterance), False
+    return None, False
 
 
 def enrich_file(in_path: Path, out_path: Path, ctx: Context) -> dict:
@@ -104,6 +129,7 @@ def enrich_file(in_path: Path, out_path: Path, ctx: Context) -> dict:
         "speaker_resolved": 0,
         "speaker_no_attrs": 0,
         "speaker_unresolved": 0,
+        "speaker_ambiguous": 0,
     }
     current_doc: str | None = None
     current_doc_from_marker = False
@@ -142,9 +168,9 @@ def enrich_file(in_path: Path, out_path: Path, ctx: Context) -> dict:
         has_speaker = "speaker_id" in parsed
         if has_speaker:
             speaker_id = comment_value(parsed["speaker_id"])
+            speaker_ambiguous = False
         else:
-            utt = dominant_utterance(tokens) or current_newpar
-            speaker_id = ctx.utt2spk.get(utt) if utt else None
+            speaker_id, speaker_ambiguous = speaker_from_sentence(tokens, current_newpar, ctx.utt2spk)
 
         event_block = ctx.event_block(doc_id) if is_new_doc else ""
         speaker_block = ctx.speaker_block(speaker_id) if speaker_id else ""
@@ -158,6 +184,8 @@ def enrich_file(in_path: Path, out_path: Path, ctx: Context) -> dict:
             stats["sents"] += 1
             if has_speaker:
                 stats["speaker_from_comment"] += 1
+            elif speaker_ambiguous:
+                stats["speaker_ambiguous"] += 1
             elif speaker_id is None:
                 stats["speaker_unresolved"] += 1
             elif speaker_block:
@@ -205,8 +233,11 @@ def report(name: str, in_path: Path, stats: dict) -> None:
     print(f"    docs:               {stats['docs']} (no event metadata: {stats['docs_no_event']})", file=sys.stderr)
     print(f"    sentences:          {stats['sents']}", file=sys.stderr)
     print(f"    speaker from input: {stats['speaker_from_comment']}", file=sys.stderr)
+    no_speaker = stats["speaker_unresolved"] + stats["speaker_ambiguous"]
     print(f"    speaker resolved:   {stats['speaker_resolved']} (resolved id, no attrs: {stats['speaker_no_attrs']})", file=sys.stderr)
-    print(f"    speaker unresolved: {stats['speaker_unresolved']}", file=sys.stderr)
+    print(f"    speaker no block:   {no_speaker} "
+          f"(metadata unavailable: {stats['speaker_unresolved']}; "
+          f"ambiguous/mixed: {stats['speaker_ambiguous']})", file=sys.stderr)
 
 
 def main() -> None:

@@ -41,6 +41,20 @@ All metadata for **both** corpora comes from the same GOS 2.1 files under `metad
 Where the data comes from and the exact field→source mapping:
 [metadata/gos/sources.md](metadata/gos/sources.md).
 
+### Mixed-speaker Artur sentences
+
+Artur sentences are resegmented UD sentences, not always original speech turns. For Artur,
+speaker metadata is emitted only when the token-level `OriginalUtteranceId` values resolve
+through TEI `who=` to exactly one speaker and no token-level utterance is unresolved. An audit
+found 112 Artur sentences whose tokens map to more than one TEI speaker (3 with no strict
+majority), plus 2 sentences that combine one known speaker with no-`who` utterance tokens.
+These 114 cases are intentionally left without a singular sentence-level `# speaker_id`; for
+review, speaker ranges are recorded in custom comments such as
+`# suggested_speaker_segments = 1-2:SPK1(...); 3-4:SPK2(...)`.
+Those custom comments, including `# mixed_speaker`, are audit/proposal annotations only; they
+are not part of the current enriched corpus schema. See
+[docs/working/artur-speaker-edge-cases/](docs/working/artur-speaker-edge-cases/).
+
 ## Repository layout
 
 ```
@@ -80,6 +94,7 @@ python scripts/enrich.py gos     # -> corpora/gos/gos-enriched.conllu
 | `scripts/translations.py` | Slovenian→English value maps (gender, age, education, type, domain, channel) |
 | `scripts/build_utterance_speaker_map.py` | reads `Gos.TEI.zip`, writes `utterance-speaker.tsv` (utterance id → speaker id, from the TEI `who=` attribute) |
 | `scripts/build_descriptions.py` | merges English titles from `docs/working/descriptions/*.tsv` into `descriptions-en.tsv` |
+| `scripts/report_mixed_speaker_sentences.py` | writes the Artur speaker edge-case TSV/mini CoNLL-U under `docs/working/artur-speaker-edge-cases/` |
 | `scripts/sources.py` | loads the four metadata tables |
 | `scripts/corpora.py` | registry of corpora → their input/output files |
 | `scripts/enrich.py` | the engine + CLI; streams a file and inserts the comment lines |
