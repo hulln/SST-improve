@@ -27,8 +27,11 @@ The extracted files used for enrichment:
 - **Identity verified against GOS 2.1:** although the annotation is in-house, the document
   and speaker identity are GOS 2.1's. Checked when building this pipeline:
   - all **1534** document ids in the file are present in `Gos-speeches.tsv` (0 unmatched);
-  - **90,300 / 90,303** referenced utterance ids resolve to a speaker in the TEI
-    (the 3 that do not are utterances the TEI itself leaves without a `who` attribute).
+  - **104,906 / 104,914** distinct referenced utterance ids resolve to a speaker in the TEI
+    (14,595 Artur token-level `OriginalUtteranceId` + 90,319 paragraph-level `# newpar id`;
+    the 8 that do not — 5 Artur + 3 GosVL — are utterances the TEI itself leaves without a
+    `who` attribute, re-verified 2026-06-12 against the official CLARIN.SI archive,
+    MD5-identical to the local copy).
   Because the join keys (document id, utterance id) are exact GOS 2.1 ids, the metadata is
   attached to the correct documents and speakers regardless of the automatic annotation.
 
